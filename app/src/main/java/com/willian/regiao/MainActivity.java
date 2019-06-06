@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
         layoutContainer = (LinearLayout) findViewById(R.id.LayoutContainer);
         tvRegiao =  (TextView) findViewById(R.id.tvRegiao);
-        tvEstados = (TextView) findViewById(R.id.tvRegiao);
+        tvEstados = (TextView) findViewById(R.id.tvEstados);
         ivTop = (ImageView) findViewById(R.id.ivTop);
-        ivBottom = (ImageView) findViewById(R.id.ivBtm);
+        ivBottom = (ImageView) findViewById(R.id.ivBottom);
         contador = 0;
         contadorEstados = 0;
 

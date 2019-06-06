@@ -9,11 +9,10 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/LayoutTop"
+        android:id="@+id/LayoutTopo"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#00ffea"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
@@ -22,8 +21,6 @@
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_weight="1"
-            android:textColor="#000"
-            android:background="#00ffea"
             app:srcCompat="@drawable/abaixo" />
     </LinearLayout>
 
@@ -39,27 +36,23 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#109adf"
             android:gravity="center_horizontal"
             android:textSize="25dp" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/LayoutBtm"
+        android:id="@+id/LayoutBottom"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#00ffea"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/ivBtm"
+            android:id="@+id/ivBottom"
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_weight="1"
-            android:textColor="#000"
-            android:background="#00ffea"
             app:srcCompat="@drawable/acima" />
     </LinearLayout>
 
@@ -75,7 +68,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#0f0"
             android:orientation="horizontal">
 
             <ImageView
@@ -83,7 +75,6 @@
                 android:layout_width="95dp"
                 android:layout_height="95dp"
                 android:layout_weight="1"
-                android:background="#0f0"
                 app:srcCompat="@drawable/esquerda" />
         </LinearLayout>
 
@@ -92,15 +83,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#dc6a0d"
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/tvRegioes"
+                android:id="@+id/tvEstados"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-
                 android:gravity="center_horizontal"
                 android:text="Estados" />
         </LinearLayout>
@@ -110,7 +99,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#0f0"
             android:orientation="horizontal">
 
             <ImageView
@@ -118,7 +106,6 @@
                 android:layout_width="95dp"
                 android:layout_height="95dp"
                 android:layout_weight="1"
-                android:background="#0f0"
                 app:srcCompat="@drawable/direita" />
         </LinearLayout>
     </LinearLayout>
